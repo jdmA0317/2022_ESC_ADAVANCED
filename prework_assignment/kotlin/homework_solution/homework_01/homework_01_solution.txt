@@ -1,0 +1,11 @@
+질문 1
+다음 중 Kotlin 언어 사용의 이점이 아닌 것은 무엇입니까?
+4. 코드가 Kotlin에서 더 빨리 컴파일됩니다.
+
+질문 2
+Kotlin REPL을 어떻게 시작합니까?
+4. Create a Kotlin project in IntelliJ IDEA, then select Tools > Kotlin > Kotlin REPL
+
+Question 3
+Which of the following is NOT true about Kotlin and Java code?
+2. You can add Kotlin code to an existing Java program.

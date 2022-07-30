@@ -1,0 +1,16 @@
+질문 1
+Kotlin에서 SAM은 다음을 의미합니다.
+3. Single Abstract Method
+
+질문 2
+다음 중 Kotlin 표준 라이브러리 확장 함수가 아닌 것은 무엇입니까?
+1. elvis()
+
+질문 3
+다음 중 어느 것이 코틀린의 람다에 해당되지 않습니까?
+3. Lambdas are resource intensive and shouldn't be used.
+거꾸로
+
+Question 4
+Labels in Kotlin are indicated with an identifier followed by:
+4. @

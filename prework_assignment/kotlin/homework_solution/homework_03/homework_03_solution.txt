@@ -1,0 +1,24 @@
+질문 1
+이 함수는 문자열이 호출되는 문자열에 포함되어 있으면 반환됩니다. 다음 코드의 출력은 무엇입니까?
+
+val decorations = listOf ("rock", "pagoda", "plastic plant", "alligator", "flowerpot")
+println(decorations.filter {it.contains('p')})
+contains는 문자열이 호출되는 문자열에 포함되어있으면 반환된다고 했으니 
+decorations 리스트 안의 문자열중 p가 포함된 문자열은 true로 반환되어 filter에 걸릴것이다.
+따라서
+3. [pagoda, plastic plant, flowerpot]
+
+질문 2
+다음 함수 정의에서 어떤 매개 변수 중 하나가 필요합니까? 
+fun shouldChangeWater (day: String, temperature: Int = 22, dirty: Int = 20, numDecorations: Int = 0): Boolean {...}
+day를 제외한 매개변수는 기본값이 정해져있으므로
+3. day
+
+질문 3
+일반 명명 된 함수 (호출 결과가 아님)를 다른 함수에 전달할 수 있습니다. 
+당신은 어떻게 통과 할 것인가?
+increaseDirty( start: Int ) = start + 1
+updateDirty(dirty: Int, operation: (Int) -> Int)
+increaseDirty라는 함수는 start라는 int형 매개변수를 받아 1을 더해 반환하는 람다식이고
+updateDirty는 dirty라는 Int형 매개변수와 operation라는 (Int) -> Int 형태의 람다식을 받는 함수이므로
+2. updateDirty(15, increaseDirty())
